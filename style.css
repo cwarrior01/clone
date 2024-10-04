@@ -266,14 +266,33 @@ align-items: center;
  height: 70px;
 padding-top: 25px;
  text-align: center; 
-/* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
+
 .pages {
   font-size: 0.9rem;
 }
+
 .copyright {
   font-size: 0.8rem;
+
+}
+
+@media only screen and  (max-width:720){
+ .navbar{
+  width: 100%;
+ }
+ .shop-section{
+  width: 100%;
+ }
+ .panel {
+  width:100%;
+ }
+ .box-img{
+  width: 50%;
+  height: 50%; 
+}
+.footer-all{
+  width: 100%;
+}
 
 }
