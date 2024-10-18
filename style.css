@@ -278,7 +278,7 @@ padding-top: 25px;
 
 }
 
-@media only screen and  (max-width:800){
+@media only screen and  (max-width:450){
  .navbar{
   width: 100%;
  
@@ -295,32 +295,55 @@ padding-top: 25px;
 }
 .footer-all{
   width: 100%;
-}
 
 }
 
- @media only screen and (max-width: 800px) {
+}
+@media only screen and (max-width: 415px) {
   .box {
-height :100%;/* Each box takes the full width */
-width : 100%;   
-flex-direction: column;  /* Ensures box content stacks vertically */
-    margin-bottom: 20px;  /* Add spacing between the boxes */
-   
+    height: auto; /* Change to auto for flexible height */
+    width: 100%; 
+    flex-direction: column; /* Ensures box content stacks vertically */
+    margin-bottom: 20px; /* Add spacing between the boxes */
   }
-  .box-img{
-    height: 50%; 
+
+  .box-img {
+    height: 310px; /* Adjust height for better fit */
     width: 100%;
-    align-items: center;
-}   
-}
-@media only screen and (max-width: 800px) {
-  .shop-section {
-    flex-direction: column;
-     align-items: center;/* Center the boxes horizontally */
- align-content: center;
-    }
-  
+    align-items: center; /* Not needed for a div; you might want to use it in a flex container */
   }
+
+  .shop-section {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the boxes horizontally */
+    align-content: center; /* Ensure alignment works */
+  }
+
+  .footer-all p {
+    align-items: center; /* Not needed for a block element; use margin or padding for spacing */
+    font-size: 0.45rem; /* Smaller font size for footers */
+  }
+
+  .footerpanel2 p { /* Fixed typo from 'foooterpanel2' */
+    font-size: x-small;
+    text-align: center; 
+  } 
+
+  ul a {
+    font-size: 0.45rem; /* Smaller font size for list items */
+    margin-left: 3px; 
+  }
+
+  .navbar p { /* Added a dot to target the class correctly */
+    font-size: 0.40rem; 
+  }
+
+  .p { /* Be cautious with class names; it’s best to use more descriptive names */
+    font-size: 0.52rem; 
+  }
+}
+
+
 
  
 
