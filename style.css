@@ -301,14 +301,14 @@ padding-top: 25px;
 }
 @media only screen and (max-width: 415px) {
   .box {
-    height: auto; /* Change to auto for flexible height */
+    height: 275; /* Change to auto for flexible height */
     width: 100%; 
     flex-direction: column; /* Ensures box content stacks vertically */
     margin-bottom: 20px; /* Add spacing between the boxes */
   }
 
   .box-img {
-    height: 310px; /* Adjust height for better fit */
+    height: 350px; /* Adjust height for better fit */
     width: 100%;
     align-items: center; /* Not needed for a div; you might want to use it in a flex container */
   }
