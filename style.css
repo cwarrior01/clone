@@ -317,7 +317,7 @@ flex-direction: column;  /* Ensures box content stacks vertically */
   .shop-section {
     flex-direction: column;
      align-items: center;/* Center the boxes horizontally */
- 
+ align-content: center;
     }
   
   }
