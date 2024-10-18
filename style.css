@@ -277,10 +277,11 @@ padding-top: 25px;
 
 }
 
-@media only screen and  (max-width:720){
+@media only screen and  (max-width:800){
  .navbar{
   width: 100%;
- }
+ 
+}
  .shop-section{
   width: 100%;
  }
@@ -288,11 +289,37 @@ padding-top: 25px;
   width:100%;
  }
  .box-img{
-  width: 50%;
-  height: 50%; 
+  height: 90%; 
+  width: 90%;
 }
 .footer-all{
   width: 100%;
 }
 
 }
+
+ 
+ @media only screen and (max-width: 800px) {
+  .box {
+height :100%;/* Each box takes the full width */
+width : 100%;   
+flex-direction: column;  /* Ensures box content stacks vertically */
+    margin-bottom: 20px;  /* Add spacing between the boxes */
+   
+  }
+  .box-img{
+    height: 600px; 
+    width: 100%;
+    
+}   
+}
+@media only screen and (max-width: 800px) {
+  .shop-section {
+    flex-direction: column;
+     align-items: center;/* Center the boxes horizontally */
+ 
+    }
+  
+  }
+
+ 
