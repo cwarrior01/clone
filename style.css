@@ -308,7 +308,7 @@ padding-top: 25px;
   }
 
   .box-img {
-    height: 350px; /* Adjust height for better fit */
+    height: 340px; /* Adjust height for better fit */
     width: 100%;
     align-items: center; /* Not needed for a div; you might want to use it in a flex container */
   }
